@@ -9,7 +9,7 @@ technology used in this project and Literature review of technologies.
 ##### Table of Contents
 
 1. [Docker Container System](###example2)
-2. [Python Flask Framework (Restful) and Jinja2](#example2)
+2. [Java Spring Boot](#example2)
 3. [MongoDB NoSQL structure](#third-example)
 4. [HTML5 Markup Language](#example2)
 5. [CSS Style Sheet Language](#example2)
@@ -55,45 +55,32 @@ Furthermore, docker includes many prepared packages like MongoDB,Python ... etc.
 
 ![](https://docs.docker.com/engine/images/architecture.svg)
 
-### 2) Python Flask framework and Jinja template
+### 2) Java Spring
 
-#### What is python-flask framework?
+#### What is Java Spring framework?
 
 - Generally, web framework uses various libraries, and it implements many features for backend rendering, performs
   general behaviours and their responses.
 
-- Flask is a web framework, it's a Python module that lets you develop web applications easily. It's has a small and
+- Spring is a web framework, it's a Python module that lets you develop web applications easily. It's has a small and
   easy-to-extend core: it's a microframework that doesn't include an ORM (Object Relational Manager) or such features.
   It does have many cool features like url routing, template engine.Moreover and finally, it includes jinja render
   language which makes dynamic data performing on html
-  files..[Citation [2]](https://pythonbasics.org/what-is-flask-python/)
+  files..
 
-#### Why python-flask framework?
+#### Why Java-Spring framework?
 
-- Python programming language is easy to implement.
-- Flask framework is pythonic and understandable.
+- Java programming language is easy to implement.
+- Java spring framework is understandable.
 - Object-oriented manner can be implemented.
 - Active communities and quick debugging.
 
-#### How to implement python-flask framework?
+#### How to implement Java Spring framework?
 
-```shell
-$ sudo apt install python3 // This part can be installed from web with executable file for windows etc.
-$ pip install flask 
-```
-
-###### Basic look to python flask
-
-```python
-from flask import Flask
-
-app = Flask(__name__)
+- go to spring initializer web page 
 
 
-@app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
-```
+
 
 ### 3) mongoDB NoSQL Database
 
