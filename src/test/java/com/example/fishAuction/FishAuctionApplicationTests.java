@@ -1,4 +1,4 @@
-package com.example.fishAuction;
+package com.example.fishAuction;Æ
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
