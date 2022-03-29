@@ -15,4 +15,12 @@ public class CooperativeMember extends User{
         return this.code;
     }
 
+
+    @Override
+    public String toString() {
+        return "{" +
+            " code='" + getCode() + "'" +
+            "}";
+    }
+
 }

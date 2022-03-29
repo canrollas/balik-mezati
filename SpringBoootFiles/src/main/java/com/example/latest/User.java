@@ -27,4 +27,14 @@ public class User implements UserInterface{
     public String getPassword() {
         return this.password;
     }
+
+
+    @Override
+    public String toString() {
+        return "{" +
+            " userName='" + getUserName() + "'" +
+            ", email='" + getEmail() + "'" +
+            ", password='" + getPassword() + "'" +
+            "}";
+    }
 }

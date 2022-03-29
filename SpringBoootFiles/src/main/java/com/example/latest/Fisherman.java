@@ -18,5 +18,13 @@ public class Fisherman extends User {
     public void setBankAccount(BankAccount newBankAccount){
         this.bankAccount = newBankAccount;
     }
+    
+
+    @Override
+    public String toString() {
+        return "{" +
+            " bankAccount='" + getBankAccount() + "'" +
+            "}";
+    }
 
 }

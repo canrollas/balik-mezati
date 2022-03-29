@@ -21,7 +21,7 @@ public class LatestApplication {
     @GetMapping("/userbilgisiBastır")
     public String userBastir(){
         CooperativeMember member = new CooperativeMember("Can","Rollas","jaspofasjo");
-        return "user bilgileri";
+        return member.toString();
     }
 
 }

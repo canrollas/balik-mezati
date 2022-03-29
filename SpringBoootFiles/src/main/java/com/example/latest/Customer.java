@@ -32,5 +32,16 @@ public class Customer extends User {
     public void setCreditCards(List<CreditCard> newCards){
         this.cards = newCards;
     }
+
+
+    @Override
+    public String toString() {
+        return "{" +
+            " address='" + getAddress() + "'" +
+            ", surname='" + getSurname() + "'" +
+            ", cards='" + getCards() + "'" +
+            "}";
+    }
+
     
 }

@@ -40,4 +40,14 @@ public class CreditCard {
     public void setSurname(String newSurname){
         this.surname = newSurname;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+            " cardNumber='" + getCardNumber() + "'" +
+            ", name='" + getName() + "'" +
+            ", surname='" + getSurname() + "'" +
+            "}";
+    }
+
 }
