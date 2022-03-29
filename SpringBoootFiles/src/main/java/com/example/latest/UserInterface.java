@@ -1,4 +1,4 @@
-package com.example.latest;
+package main.java.com.example.latest;
 
 public interface UserInterface {
     public String getUserName();

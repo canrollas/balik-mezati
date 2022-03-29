@@ -1,29 +1,30 @@
 package com.example.latest;
 
 public class User implements UserInterface{
-    String userName;
-    String email;
-    String password;
-
+    // Variable declarations
+    private String userName;
+    private String email;
+    private String password;
+    // Constructor
     public User(String userName,String email,String password) {
         this.email = email;
         this.userName = userName;
         this.password = password;
     }
 
-
+    // Overriden methods 
     @Override
     public String getUserName() {
-        return null;
+        return this.userName;
     }
 
     @Override
     public String getEmail() {
-        return null;
+        return this.email;
     }
 
     @Override
     public String getPassword() {
-        return null;
+        return this.password;
     }
 }
