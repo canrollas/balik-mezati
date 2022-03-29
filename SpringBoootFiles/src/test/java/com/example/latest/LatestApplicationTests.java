@@ -1,10 +1,10 @@
-package com.example.springboootfiles;
+package com.example.latest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBoootFilesApplicationTests {
+class LatestApplicationTests {
 
     @Test
     void contextLoads() {
