@@ -18,6 +18,10 @@ public class LatestApplication {
         return "Merhaba burası applikasyonun landing page bilgileridir";
     }
 
-
+    @GetMapping("/userbilgisiBastır")
+    public String userBastir(){
+        CooperativeMember member = new CooperativeMember("Can","Rollas","jaspofasjo");
+        return "user bilgileri";
+    }
 
 }
