@@ -5,7 +5,9 @@ import java.util.ArrayList;
 
 public class CooperativeMemberController {
     boolean videoStreamOn = false;
-
+    private FishermanRepository fishermanRepo;
+    private FishRepository fishRepo;
+    private SaleRepository saleRepo;
     public boolean registerFisherman(String password, String email, String userName, String Iban, String Owner) {
         try {
             FisherMan fisherManObj = new FisherMan(userName, email, password);
