@@ -1,13 +1,17 @@
 package com.example.latest;
 
-public class FishermanRepository {
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-    public void addFisherMan(FisherMan fisherManObject){
-        // Assuming this code will add fisherman in to database.
+public interface FishermanRepository extends MongoRepository<FisherMan,String> {
+
+    public FisherMan findFisherManByUserId(String userId);
+
+    // Note that this is not necessary
+    /*
+    public static void addCart(String userId,BankAccount account){
     }
-    public void addBankAccount(){
-        // Assuming this part of the code will add bank account to the db.
-    }
+    // FIXME
+     */
 
 
 }
