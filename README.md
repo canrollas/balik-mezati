@@ -1,5 +1,5 @@
 # Fish Auction Project Technology Electing Process
-
+## Note that this project is demonstration for individuals full version.
 ### Abstract
 
 Technology usage covers many critical areas like software design. Electing the best compatible technologies with
